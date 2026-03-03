@@ -1,0 +1,55 @@
+Clustering Test - Salinas Dataset
+--------------------------------------------------
+Image shape: (512, 217, 204)
+Labels shape: (512, 217)
+Reshaped image: (111104, 204)
+
+K-Means pixel counts:
+   11353 pixels in category  0 (Background)
+   14081 pixels in category  1 (Broccoli_green_weeds_1)
+    4291 pixels in category  2 (Broccoli_green_weeds_2)
+    1728 pixels in category  3 (Fallow)
+    5392 pixels in category  4 (Fallow_rough_plow)
+   10964 pixels in category  5 (Fallow_smooth)
+    4376 pixels in category  6 (Stubble)
+    4839 pixels in category  7 (Celery)
+    9107 pixels in category  8 (Grapes_untrained)
+   14616 pixels in category  9 (Soil_vineyard_develop)
+    2575 pixels in category 10 (Corn_senesced_green_weeds)
+    3972 pixels in category 11 (Lettuce_romaine_4wk)
+     881 pixels in category 12 (Lettuce_romaine_5wk)
+    5151 pixels in category 13 (Lettuce_romaine_6wk)
+    4605 pixels in category 14 (Lettuce_romaine_7wk)
+      61 pixels in category 15 (Vineyard_untrained)
+   13112 pixels in category 16 (Vineyard_vertical_trellis)
+
+K-Means ARI: 0.1394
+K-Means Silhouette: 0.3874
+Saved: kmeans_clustering.png
+
+Fuzzy C-Means pixel counts:
+    2797 pixels in category  0 (Background)
+   10265 pixels in category  1 (Broccoli_green_weeds_1)
+    3148 pixels in category  2 (Broccoli_green_weeds_2)
+    6886 pixels in category  3 (Fallow)
+    3522 pixels in category  4 (Fallow_rough_plow)
+    4713 pixels in category  5 (Fallow_smooth)
+    7401 pixels in category  6 (Stubble)
+   14137 pixels in category  7 (Celery)
+   12008 pixels in category  8 (Grapes_untrained)
+    3701 pixels in category  9 (Soil_vineyard_develop)
+    3124 pixels in category 10 (Corn_senesced_green_weeds)
+    6490 pixels in category 11 (Lettuce_romaine_4wk)
+    7138 pixels in category 12 (Lettuce_romaine_5wk)
+    6192 pixels in category 13 (Lettuce_romaine_6wk)
+    2271 pixels in category 14 (Lettuce_romaine_7wk)
+   12881 pixels in category 15 (Vineyard_untrained)
+    4430 pixels in category 16 (Vineyard_vertical_trellis)
+
+Fuzzy C-Means ARI: 0.1311
+Fuzzy C-Means Silhouette: 0.3462
+Saved: fcm_clustering.png
+
+Done
+Report: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output/default_test_report.txt
+Plots: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output

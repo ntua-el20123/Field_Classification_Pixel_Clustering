@@ -1,0 +1,5 @@
+numpy>=1.26
+matplotlib>=3.10
+scikit-learn>=1.8
+fuzzy-c-means>=1.7
+seaborn>=0.13

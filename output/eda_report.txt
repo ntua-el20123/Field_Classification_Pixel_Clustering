@@ -1,0 +1,54 @@
+Exploratory Data Analysis - Salinas Dataset
+--------------------------------------------------
+
+Dataset loaded
+  Image: (512, 217, 204)
+  Labels: (512, 217)
+
+Image dimensions:
+  Height: 512, Width: 217, Hyperspectral Channels: 204
+
+Generating sample channels visualization...
+  Saved: sample_channels.png
+
+Label statistics:
+  Unique labels: 17
+  Classes defined: 17
+Generating class distribution visualization...
+  Saved: class_distribution.png
+
+Pixel counts per class:
+   56975 pixels in category  0 (Background)
+    2009 pixels in category  1 (Broccoli_green_weeds_1)
+    3726 pixels in category  2 (Broccoli_green_weeds_2)
+    1976 pixels in category  3 (Fallow)
+    1394 pixels in category  4 (Fallow_rough_plow)
+    2678 pixels in category  5 (Fallow_smooth)
+    3959 pixels in category  6 (Stubble)
+    3579 pixels in category  7 (Celery)
+   11271 pixels in category  8 (Grapes_untrained)
+    6203 pixels in category  9 (Soil_vineyard_develop)
+    3278 pixels in category 10 (Corn_senesced_green_weeds)
+    1068 pixels in category 11 (Lettuce_romaine_4wk)
+    1927 pixels in category 12 (Lettuce_romaine_5wk)
+     916 pixels in category 13 (Lettuce_romaine_6wk)
+    1070 pixels in category 14 (Lettuce_romaine_7wk)
+    7268 pixels in category 15 (Vineyard_untrained)
+    1807 pixels in category 16 (Vineyard_vertical_trellis)
+
+  Reshaped image: (111104, 204)
+  Reshaped labels: (111104,)
+Generating spectral signatures plot...
+  Saved: spectral_signatures.png
+Generating correlation matrix heatmap...
+  Saved: correlation_matrix.png
+
+Spectral statistics:
+  Mean intensity: 1196.4004
+  Std deviation: 1098.4005
+  Min intensity: -11.0000
+  Max intensity: 9207.0000
+
+Done
+Report: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output/eda_report.txt
+Plots: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output

@@ -1,0 +1,42 @@
+PCA Clustering Test - Salinas Dataset
+--------------------------------------------------
+Original image shape: (111104, 204)
+Reduced image shape: (111104, 3)
+Explained variance ratio: [0.74473713 0.23531325 0.01134124]
+Total variance explained: 0.991392
+
+K-Means (3 PCA components) pixel counts:
+    7145 pixels in category  0 (Background)
+   19596 pixels in category  1 (Broccoli_green_weeds_1)
+    4574 pixels in category  2 (Broccoli_green_weeds_2)
+    4367 pixels in category  3 (Fallow)
+    6027 pixels in category  4 (Fallow_rough_plow)
+    4268 pixels in category  5 (Fallow_smooth)
+   16100 pixels in category  6 (Stubble)
+    4602 pixels in category  7 (Celery)
+    9692 pixels in category  8 (Grapes_untrained)
+    1321 pixels in category  9 (Soil_vineyard_develop)
+     923 pixels in category 10 (Corn_senesced_green_weeds)
+    3832 pixels in category 11 (Lettuce_romaine_4wk)
+      68 pixels in category 12 (Lettuce_romaine_5wk)
+   18482 pixels in category 13 (Lettuce_romaine_6wk)
+    4527 pixels in category 14 (Lettuce_romaine_7wk)
+    1919 pixels in category 15 (Vineyard_untrained)
+    3661 pixels in category 16 (Vineyard_vertical_trellis)
+
+K-Means ARI: 0.1675
+K-Means Silhouette: 0.4329
+Saved: pca_kmeans_clustering.png
+
+Metrics across component counts:
+  1 components: ARI=0.1266, Silhouette=0.5346
+  2 components: ARI=0.1648, Silhouette=0.4725
+  3 components: ARI=0.1675, Silhouette=0.4329
+  4 components: ARI=0.1495, Silhouette=0.4320
+  5 components: ARI=0.1449, Silhouette=0.4166
+
+Saved: pca_metrics_analysis.png
+
+Done
+Report: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output/pca_test_report.txt
+Plots: /mnt/c/Users/aris/SCRIPTS/for_git/Field_Classification_Pixel_Clustering/output
